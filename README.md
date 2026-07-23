@@ -29,8 +29,4 @@ The system has three domains working together:
 
 RTL modules were verified with SystemVerilog testbenches, and the USB/SPI input path was debugged on hardware with a logic analyzer — capturing SPI transactions to the MAX3421E to isolate protocol timing faults between MicroBlaze register accesses and the USB controller.
 
-## Full Design Details
-
-Module-by-module documentation, the SPI/MAX3421E protocol walkthrough, and the complete block design: **[Final Report (PDF)](fpga_tetris_docs/Tetris Project Report.pdf)**
-
 
